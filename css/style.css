@@ -442,7 +442,7 @@ button {
 /*Inicio de los estilos del registro */
 /***********************************/
 
-.register-container {
+.container {
     height: 50rem;
     display: flex;
     justify-content: center;
@@ -639,6 +639,18 @@ textarea:focus {
 
     /***********************************/
     /*          Fin de movie           */
+    /***********************************/
+
+    /***********************************/
+    /*        Incio Registro           */
+    /***********************************/
+
+    .container {
+        height: 100%;
+    }
+
+    /***********************************/
+    /*        Fin registro             */
     /***********************************/
 
 }
