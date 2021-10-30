@@ -124,6 +124,8 @@ body {
     grid-column: 10/13;
     width: 100%;
     height: auto;
+    margin-left: -25%;
+    text-align: end; 
 }
 
 .img-movie {
@@ -827,9 +829,9 @@ textarea:focus {
 @media (max-width: 440px) {
 
     .grid-nav {
-        grid-column: 2/9;
-        margin-right: auto;
-        text-align: end;
+        grid-column: 2/10;
+        margin-left: -9%;
+        text-align: end;                            
     }
 
     .btn {
