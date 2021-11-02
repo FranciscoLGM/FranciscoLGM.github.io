@@ -77,7 +77,7 @@ body {
     display: none;
 }
 
-.nav__indexMenu{
+.nav__indexMenu {
     margin-right: 4rem;
 }
 
@@ -89,6 +89,16 @@ body {
 /*********************************/
 /*Inicio de los estilos del main */
 /*********************************/
+
+.nav__indexContainer {
+    display: flex;
+    height: 100%;
+    width: 90%;
+    max-width: 1140px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .grid-index {
     display: grid;
@@ -550,10 +560,15 @@ textarea:focus {
     /*        Incio Index              */
     /***********************************/
 
-    .nav__indexMenu{
+    .nav__indexContainer {
+        margin-top: 2.5rem;
+        max-width: 960px;
+    }
+
+    .nav__indexMenu {
         margin-right: 0;
     }
-    
+
     .grid-index {
         max-width: 960px;
         column-gap: 1rem;
@@ -597,7 +612,7 @@ textarea:focus {
         margin: 1.2rem .5rem;
         grid-row: auto;
 
-    }    
+    }
 
     /***********************************/
     /*          Fin del  Index         */
