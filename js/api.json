@@ -1,18 +1,18 @@
 [
     {
-        "name": "The Suicide Squad",
+        "title": "The Suicide Squad",
         "url": "../assets/images/The Suicide Squad.jpg"
     },
     {
-        "name": "Free Guy",
+        "title": "Free Guy",
         "url": "../assets/images/Free Guy.jpg"
     },
     {
-        "name": "Nobody",
+        "title": "Nobody",
         "url": "../assets/images/Nobody.jpg"
     },
     {
-        "name": "Wrath of Man",
+        "title": "Wrath of Man",
         "url": "../assets/images/Wrath of Man.jpg"
     }
 ]
