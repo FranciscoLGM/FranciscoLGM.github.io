@@ -1,50 +1,62 @@
 [
     {
         "title": "The Suicide Squad",
-        "url": "../assets/images/The Suicide Squad.jpg"
+        "url": "../assets/images/The Suicide Squad.jpg",
+        "YouTube": "https://www.youtube.com/embed/IblLmbGxw1Q"
     },
     {
         "title": "Free Guy",
-        "url": "../assets/images/Free Guy.jpg"
+        "url": "../assets/images/Free Guy.jpg",
+        "YouTube": "https://www.youtube.com/embed/pdCP9doJARE"
     },
     {
         "title": "Nobody",
-        "url": "../assets/images/Nobody.jpg"
+        "url": "../assets/images/Nobody.jpg",
+        "YouTube": "https://www.youtube.com/embed/1mL0-oRB3RI"
     },
     {
         "title": "Wrath of Man",
-        "url": "../assets/images/Wrath of Man.jpg"
+        "url": "../assets/images/Wrath of Man.jpg",
+        "YouTube": "https://www.youtube.com/embed/dBMVc0oBHjQ"
     },
     {
         "title": "The Newspaperman",
-        "url": "../assets/images/The Newspaperman.jpg"
+        "url": "../assets/images/The Newspaperman.jpg",
+        "YouTube": "https://www.youtube.com/embed/Y8P_BXLcP74"
     },
     {
         "title": "Headache",
-        "url": "../assets/images/Headache.jpg"
+        "url": "../assets/images/Headache.jpg",
+        "YouTube": "https://www.youtube.com/embed/-Cniu_ENIK8"
     },
     {
         "title": "Cry Macho",
-        "url": "../assets/images/Cry Macho.jpg"
+        "url": "../assets/images/Cry Macho.jpg",
+        "YouTube": "https://www.youtube.com/embed/dp5J1FZnGVg"
     },
     {
         "title": "Master",
-        "url": "../assets/images/Master.jpg"
+        "url": "../assets/images/Master.jpg",
+        "YouTube": "https://www.youtube.com/embed/wNWKwjWjWcY"
     },
     {
         "title": "PIG",
-        "url": "../assets/images/PIG.jpg"
+        "url": "../assets/images/PIG.jpg",
+        "YouTube": "https://www.youtube.com/embed/AZJIWnaC2Xs"
     },
     {
         "title": "Schumacher",
-        "url": "../assets/images/Schumacher.jpg"
+        "url": "../assets/images/Schumacher.jpg",
+        "YouTube": "https://www.youtube.com/embed/MYYsft_6xI0"
     },
     {
         "title": "The River Runner",
-        "url": "../assets/images/The River Runner.jpg"
+        "url": "../assets/images/The River Runner.jpg",
+        "YouTube": "https://www.youtube.com/embed/CdLovewceng"
     },
     {
         "title": "Kala Azar",
-        "url": "../assets/images/Kala Azar.jpg"
+        "url": "../assets/images/Kala Azar.jpg",
+        "YouTube": "https://www.youtube.com/embed/E2kAHnCaZl4"
     }
 ]

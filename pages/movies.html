@@ -13,19 +13,12 @@
     <title>Notflix</title>
 </head>
 
-<body>
-
-    <header>
-
-    </header>
+<body>    
     <!-- Inicio Botones de navegación-->
 
     <nav class="nav__movie">
-
         <div class="nav__container">
-
             <h1 class="nav__logo">Notflix</h1>
-
             <label for="menu" class="nav__label">
                 <img src="../assets/ico/menu.svg" alt="Menu" class="nav__img">
             </label>
@@ -36,104 +29,26 @@
                 <a href="contact.html" class="nav__item">Contacto</a>
                 <a href="../index.html" class="nav__item">Salir</a>
             </div>
-
         </div>
-
-
     </nav>
     <!-- Final de Botones de navegación-->
 
     <main>
-        <div class="grid-container" id="movies">
-            <div class="item-movie" id="Squad">
-                <a href="player.html">
-                    <img src="../assets/images/The Suicide Squad.jpg" alt="The Suicide Squad">
-                </a>
-                <br>
-                <p>The Suicide Squad</p>
-            </div>
-            <div class="item-movie">
-                <a href="player.html">
-                    <img src="../assets/images/Free Guy.jpg" alt="Free Guy">
-                </a>
-                <br>
-                <p>Free Guy</p>
-            </div>
-            <div class="item-movie">
-                <a href="player.html">
-                    <img src="../assets/images/Nobody.jpg" alt="Nobody">
-                </a>
-                <br>
-                <p>Nobody</p>
-            </div>
-            <div class="item-movie">
-                <a href="player.html">
-                    <img src="../assets/images/Wrath of Man.jpg" alt="Wrath of Man">
-                </a>
-                <br>
-                <p>Wrath of Man</p>
-            </div>
-            <div class="item-movie">
-                <a href="player.html">
-                    <img src="../assets/images/The Newspaperman.jpg" alt="The Newspaperman">
-                </a>
-                <br>
-                <p>The Newspaperman</p>
-            </div>
-            <div class="item-movie">
-                <a href="player.html">
-                    <img src="../assets/images/Headache.jpg" alt="Headache">
-                </a>
-                <br>
-                <p>Headache</p>
-            </div>
-            <div class="item-movie">
-                <a href="player.html">
-                    <img src="../assets/images/CryMacho.jpg" alt="Cry Macho">
-                </a>
-                <br>
-                <p>Cry Macho</p>
-            </div>
-            <div class="item-movie">
-                <a href="player.html">
-                    <img src="../assets/images/Master.jpg" alt="Master">
-                </a>
-                <br>
-                <p>Master</p>
-            </div>
-            <div class="item-movie">
-                <a href="player.html">
-                    <img src="../assets/images/PIG.jpg" alt="PIG">
-                </a>
-                <br>
-                <p>PIG</p>
-            </div>
-            <div class="item-movie">
-                <a href="player.html">
-                    <img src="../assets/images/SCHUMACHER.jpg" alt="Schumacher">
-                </a>
-                <br>
-                <p>Schumacher</p>
-            </div>
-            <div class="item-movie">
-                <a href="player.html">
-                    <img src="../assets/images/The River Runner.jpg" alt="The River Runner">
-                </a>
-                <br>
-                <p>The River Runner</p>
-            </div>
-            <div class="item-movie">
-                <a href="player.html">
-                    <img src="../assets/images/Kala Azar.jpg" alt="Kala Azar">
-                </a>
-                <br>
-                <p>Kala Azar</p>
-            </div>
+        <div class="grid-container" id="item">
 
         </div>
+        
+        <template id="template-movie">
+            <div class="item-movie">
+                <a href="">
+                    <img src="" alt="">
+                </a>
+                <br>
+                <p></p>
+            </div>
+        </template>
+
     </main>
-
-
 
     <!--Incio de Footer-->
 
@@ -168,8 +83,7 @@
 
     <!--Final de Footer-->
 
-
-    <script src="../js/player.js"></script>
+    <script src="../js/api.js"></script>
     <script src="https://kit.fontawesome.com/a80e54f0bd.js" crossorigin="anonymous"></script>
 </body>
 

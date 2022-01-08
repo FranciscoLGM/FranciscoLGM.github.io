@@ -24,6 +24,7 @@ const renderMovie = data => {
     templateMovie.querySelector('p').textContent = movie.title
     templateMovie.querySelector('img').src = movie.url
     templateMovie.querySelector('img').alt = movie.title
+    templateMovie.querySelector('a').href = movie.YouTube
 
     const clone = templateMovie.cloneNode(true)
     fragment.appendChild(clone)
