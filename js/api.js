@@ -23,6 +23,7 @@ const renderMovie = data => {
   data.forEach(movie => {
     templateMovie.querySelector('p').textContent = movie.title
     templateMovie.querySelector('img').src = movie.url
+    templateMovie.querySelector('img').alt = movie.title
 
     const clone = templateMovie.cloneNode(true)
     fragment.appendChild(clone)

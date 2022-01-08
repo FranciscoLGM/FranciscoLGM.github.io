@@ -13,19 +13,12 @@
     <title>Notflix</title>
 </head>
 
-<body>
-
-    <header>
-
-    </header>
+<body>    
     <!-- Inicio Botones de navegación-->
 
     <nav class="nav__movie">
-
         <div class="nav__container">
-
             <h1 class="nav__logo">Notflix</h1>
-
             <label for="menu" class="nav__label">
                 <img src="../assets/ico/menu.svg" alt="Menu" class="nav__img">
             </label>
@@ -36,20 +29,17 @@
                 <a href="contact.html" class="nav__item">Contacto</a>
                 <a href="../index.html" class="nav__item">Salir</a>
             </div>
-
         </div>
-
-
     </nav>
     <!-- Final de Botones de navegación-->
 
     <main>
-        <div class="grid-container">
-            <div class="item-movie" id="item"></div>
-        </div>
+        <div class="grid-container" id="item">
 
+        </div>
+        
         <template id="template-movie">
-            <div class="">
+            <div class="item-movie">
                 <a href="player.html">
                     <img src="" alt="">
                 </a>
@@ -59,7 +49,6 @@
         </template>
 
     </main>
-
 
     <!--Incio de Footer-->
 
@@ -93,7 +82,6 @@
     </footer>
 
     <!--Final de Footer-->
-
 
     <script src="../js/api.js"></script>
     <script src="https://kit.fontawesome.com/a80e54f0bd.js" crossorigin="anonymous"></script>
