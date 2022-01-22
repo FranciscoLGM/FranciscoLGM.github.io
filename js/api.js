@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const fetchData = async () => {
   try {
-    const response = await fetch('../js/api.json')
+    const response = await fetch('https://yts.mx/api/v2/list_movies.json')
     const data = await response.json()
     //console.log(data)
     renderMovie(data)
@@ -20,14 +20,17 @@ const fetchData = async () => {
 }
 
 const renderMovie = data => {
-  data.forEach(movie => {
+  data.data.movies.forEach(movie => {
+    //console.log(movie)
     templateMovie.querySelector('p').textContent = movie.title
-    templateMovie.querySelector('img').src = movie.url
+    templateMovie.querySelector('img').src = movie.medium_cover_image
     templateMovie.querySelector('img').alt = movie.title
-    templateMovie.querySelector('a').href = movie.YouTube
+    templateMovie.querySelector('a').href = 'https://www.youtube.com/embed/' + movie.yt_trailer_code
 
     const clone = templateMovie.cloneNode(true)
     fragment.appendChild(clone)
   });
   items.appendChild(fragment)
 }
+
+
