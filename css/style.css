@@ -260,7 +260,7 @@ body {
 
 p {
     font-weight: 400;
-    font-size: 1rem;
+    font-size: .9rem;
 }
 
 .item-movie:hover {
@@ -286,6 +286,7 @@ p {
 /******************************/
 /*Fin de los estilos del main */
 /******************************/
+
 
 /***********************************/
 /*Inicio de los estilos del Footer */
