@@ -1,4 +1,6 @@
-// template para pagina de peliculas
+(function(){
+
+  // template para pagina de peliculas
 const items = document.getElementById('item')
 const templateMovie = document.getElementById('template-movie').content // template para peliculas 
 const fragment = document.createDocumentFragment()
@@ -19,10 +21,12 @@ const fetchData = async () => {
   }
 }
 
+
+
 const renderMovie = data => {
   data.data.movies.forEach(movie => {
     //console.log(movie)
-    templateMovie.querySelector('p').textContent = movie.title
+    templateMovie.querySelector('figcaption').textContent = movie.title_long
     templateMovie.querySelector('img').src = movie.medium_cover_image
     templateMovie.querySelector('img').alt = movie.title
     templateMovie.querySelector('a').href = 'https://www.youtube.com/embed/' + movie.yt_trailer_code
@@ -33,4 +37,4 @@ const renderMovie = data => {
   items.appendChild(fragment)
 }
 
-
+})();
