@@ -56,7 +56,7 @@ body {
 .nav__item::after {
     content: '';
     display: block;
-    background: rgb(155, 52, 239);
+    background: #9b34ef;
     width: 90%;
     margin-top: 0.187rem;
     height: 0.187rem;
@@ -246,9 +246,8 @@ body {
     height: 100%;
     max-width: 1140px;
     margin: 0 auto;
-    column-gap: 2.7rem;
-    row-gap: 2.7rem;
-    place-items: center;
+    gap: 3rem;
+    justify-content: center;
     align-items: center;
     overflow: hidden;
     padding: .8rem;
@@ -257,11 +256,13 @@ body {
 .item-movie {
     grid-column: span 3;
     margin-bottom: .7rem;
+    margin: 0 auto;
 }
 
 figcaption {
     font-weight: 400;
     font-size: .9rem;
+    text-align: center;
 }
 
 .item-movie:hover {
@@ -356,6 +357,27 @@ figcaption {
     height: 100vh;
 }
 
+.flex__btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon__Template {
+    display: block;
+    color: #f5f5f5;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 0.625rem;
+}
+
+.icon__Template:hover {
+    color: #9b34ef;
+}
+
+.text__btn {
+    font-size: .9rem;
+}
+
 
 
 /******************************/
@@ -367,9 +389,9 @@ figcaption {
 /*Inicio de los estilos del Footer */
 /***********************************/
 
-footer {
+footer {    
     text-align: center;
-    color: whitesmoke;
+    color: #f5f5f5;
     padding: 3rem 0;
 }
 
@@ -403,130 +425,6 @@ footer p {
 /********************************/
 /*Fin de los estilos del Footer */
 /********************************/
-
-/***********************************/
-/*Inicio de los estilos del login */
-/***********************************/
-/*:root {
-    --colorTextos: rgb(155, 52, 239);
-    ;
-}
-
-.login-container {
-    height: 50rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #6303e0;
-}
-
-h1 {
-    text-align: center;
-    font-weight: 700;
-    margin-bottom: 1rem;
-}
-
-.form-paragraph {
-    font-weight: 300;
-    text-align: center;
-}
-
-.form-link {
-    font-weight: 400;
-    color: #4568DC;
-    text-align: center;
-}
-
-form {
-    background-color: whitesmoke;
-    padding: 4rem 0;
-    box-shadow: 0 0 .5rem 0 rgba(255, 255, 255, 0.8);
-    border-radius: 1rem;
-}
-
-.form {
-    width: 100%;
-    margin: auto;
-}
-
-form .grupo {
-    position: relative;
-    margin: 3rem;
-}
-
-input {
-    background: none;
-    color: #c6c6c6;
-    font-size: 1rem;
-    padding: .7rem .7rem .7rem .35rem;
-    display: block;
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid var(--colorTextos);
-}
-
-input:focus {
-    outline: none;
-    color: var(--colorTextos);
-}
-
-label {
-    color: var(--colorTextos);
-    font-size: 1rem;
-    position: absolute;
-    left: .3rem;
-    right: .6rem;
-    transition: 0.5s ease-in-out all;
-    pointer-events: none;
-}
-
-input:focus~label,
-input:valid~label {
-    top: -1rem;
-    font-size: .7rem;
-    color: #434343;
-}
-
-.barra {
-    position: relative;
-    display: block;
-    width: 100%;
-}
-
-.barra::before {
-    content: "";
-    height: .125rem;
-    width: 0%;
-    bottom: 0;
-    position: absolute;
-    background: linear-gradient(to right, #B06AB3, #4568DC);
-    transition: 0.3s ease width;
-    left: 0;
-}
-
-input:focus~.barra::before {
-    width: 100%;
-
-}
-
-button {
-    font-family: 'Raleway', sans-serif;
-    background: linear-gradient(to right, #B06AB3, #4568DC);
-    border: none;
-    display: block;
-    width: 80%;
-    margin: .625rem auto;
-    color: whitesmoke;
-    height: 2.5rem;
-    font-size: 1rem;
-    cursor: pointer;
-    border-radius: 1.2rem;
-}
-
-
-/***********************************/
-/*Fin de los estilos del Login */
-/***********************************/
 
 
 /***********************************/
@@ -700,12 +598,15 @@ textarea:focus {
     /***********************************/
 
     .grid-container {
-        max-width: 960px;
-        height: 90%;
+        max-width: 982px;
     }
 
     .item-movie {
         grid-column: span 4;
+    }
+
+    figcaption {
+        display: none;
     }
 
     /***********************************/
@@ -730,6 +631,8 @@ textarea:focus {
     .item-movie {
         grid-column: span 6;
     }
+
+
 
     /***********************************/
     /*          Fin de movie           */
