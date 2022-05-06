@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 * {
     box-sizing: border-box;
     padding: 0;
@@ -371,11 +372,18 @@ figcaption {
 }
 
 .icon__Template:hover {
-    color: #9b34ef;
+    color: #dc143c;
 }
 
 .text__btn {
     font-size: .9rem;
+}
+
+figure>a>img[alt]{
+    color: #f5f5f5;
+    font-size: .9rem;
+    text-align: center;
+    text-decoration: none;
 }
 
 
